@@ -4,15 +4,15 @@
 /* General body styles */
 body {
     font-family: 'Lobster', cursive; /* Use "Lobster" font */
-    background-color: #FAEBD7;
+    background-color: #FFD740;
     margin: 0;
     padding: 0;
 }
 
 /* Header styles */
 header {
-    background-color: #778899;
-    color: black;
+    background-color: #D4A200;
+    color: lightyellow;
     text-align: center;
     padding: 20px;
     position: relative;
@@ -30,7 +30,7 @@ h1 {
     width: 50%;
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #3498db;
+    border: 2px solid #FAFAD2;
     border-radius: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -39,7 +39,7 @@ h1 {
 
 #search-bar:focus {
     outline: none;
-    border-color: #FFFFE0; /* Change border color on focus */
+    border-color: #FAFAD2; /* Change border color on focus */
     box-shadow: 0 0 5px rgba(41, 128, 185, 0.8); /* Add a soft glow on focus */
 }
 
@@ -58,7 +58,7 @@ main {
 
 /* Individual product styling */
 .product {
-    background-color: whitesmoke;
+    background-color: lightgoldenrodyellow;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
